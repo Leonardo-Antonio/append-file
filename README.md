@@ -5,7 +5,7 @@
 - instalación
 
 ```shell
-go get github.com/Leonardo-Antonio/appendFile
+go get github.com/Leonardo-Antonio/append-file
 ```
 
 - ejemplo
