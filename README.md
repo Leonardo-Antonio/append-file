@@ -10,7 +10,7 @@ go get github.com/Leonardo-Antonio/append-file
 
 - ejemplo
 ```go
-err := AppendFile("log.txt", "[GET][201] | localhost:8080/api/v1/users")
+err := file.Append("log.txt", "[GET][201] | localhost:8080/api/v1/users")
 if err != nil {
 	panic(err)
 }
